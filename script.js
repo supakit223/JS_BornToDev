@@ -16,3 +16,11 @@ if(data == random_number){
 }else{
     document.getElementById("result3").innerText = "คุณไม่ถูกรางวัล"
 }
+
+function myRandom(min,max) {
+    const N = max - min + 1
+    return Math.floor(Math.random() * N) + min
+}
+for (let i = 1; i<=20; i++) {
+    console.log(myRandom(1,100))    
+}
