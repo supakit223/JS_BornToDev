@@ -2,7 +2,7 @@
     font-size:16px;
     color: white;
     background-color: black;
-    border: 2px solid #fff;
+    border: 2px solid gray;
     margin: 10px;
     padding: 30px;
 }
@@ -20,6 +20,7 @@
     color: white;
     background-color: black;   
     margin: 5px; 
+    border: 2px solid gray;
 }
 #light{
     font-size:16px;
@@ -27,6 +28,15 @@
     color: red;
     background-color: yellow;   
     margin: 5px; 
+    border: 2px solid red;
+}
+#default{
+    font-size:16px;
+    font-weight: bold;
+    color:black;
+    background-color: whitesmoke;   
+    margin: 5px; 
+    border: 2px solid palevioletred;
 }
 .center {
     display: flex;
