@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="/js/bootstrap.min.js"></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>หน้าหลัก</title>
   </head>
-  <body>
-    <h1>คุณซื้อเลข :</h1>
-    <h2 id="result1"></h2>
-    <h1>เลขที่ถูกรางวัล คือ :</h1>
-    <h2 id="result2"></h2>
-    <h1 id="result3"></h1>
-    <script src="script.js"></script>
+  <body>  
+    <form>
+      <div class="form-group">
+        <label for="usr">Name:</label>
+        <input type="text" class="form-control" id="usr" name="username">
+      </div>
+      <div class="form-group">
+        <label for="pwd">Password:</label>
+        <input type="password" class="form-control" id="pwd" name="password">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
   </body>
 </html>
