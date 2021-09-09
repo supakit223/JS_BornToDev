@@ -1,16 +1,14 @@
-const change = document.querySelector(".light")
-function displayDark(){
-    change.setAttribute("class","container dark")
-}
-function displayLight(){
-    change.setAttribute("class","container light")
+const box = document.getElementById("box")
+
+function add_dark() {
+    box.classList.remove("lightmode")
+    box.classList.add("darkmode")
 }
 
-const menu = document.getElementById("menu")
-let count = 1
-function add_item() {
-    const item = document.createElement("li")
-    item.innerHTML = `Item${count++}`
-    menu.appendChild(item)   
+function add_light() {
+    box.classList.remove("darkmode")
+    box.classList.add("lightmode")
 }
-    
+
+
+   
