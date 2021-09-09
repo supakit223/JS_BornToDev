@@ -1,10 +1,16 @@
-const content = document.getElementById("content") //id
-const text = document.querySelector(".text")  //class มี dot
-
-function displaytext() {
-    content.innerHTML = "สบายใจ"
-    content.style.color = "red"
-
-    text.innerHTML = "Bad Guy"    
-    text.style.color = "orange"
+const change = document.querySelector(".light")
+function displayDark(){
+    change.setAttribute("class","container dark")
 }
+function displayLight(){
+    change.setAttribute("class","container light")
+}
+
+const menu = document.getElementById("menu")
+let count = 1
+function add_item() {
+    const item = document.createElement("li")
+    item.innerHTML = `Item${count++}`
+    menu.appendChild(item)   
+}
+    

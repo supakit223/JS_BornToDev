@@ -2,18 +2,25 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
     <script src="/js/bootstrap.min.js"></script>
+    
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <title>หน้าหลัก</title>
   </head>
   <body>
-    <div class="container">
-      <h1 id="content"></h1>
-      <p class="text"></p>
-      <button onclick="displaytext()" type="button" class="btn btn-primary">OK</button>
-    </div>    
+    <div class=" container light">      
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus tenetur alias, consectetur aliquam sapiente possimus facere velit. Amet blanditiis 
+      <button onclick="displayDark()" type="button" class="btn btn-dark">Dark</button>
+      <button onclick="displayLight()" type="button" class="btn btn-success">Light</button>
+    </div><br>
+    <div class="container soft">
+        <ul id="menu" class="center"><h1 style="text-align:center; color: crimson;";>รายการ</h1></ul>
+        <button onclick="add_item()" type="button" class="btn btn-primary">เพิ่มรายการ</button>
+    </div>
     <script src="script.js"></script> 
   </body>
 </html>

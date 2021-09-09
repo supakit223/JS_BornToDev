@@ -1,0 +1,17 @@
+.light{
+    color:black;
+    background-color: yellow;
+}
+.dark{
+    color:blanchedalmond;
+    background-color: purple;
+}
+.soft{
+    background-color:turquoise;
+}
+.center {    
+    text-align: center;
+    width:auto;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
